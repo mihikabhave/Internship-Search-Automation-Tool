@@ -133,3 +133,4 @@ Fix: Duplicate URLs are ignored by design; other database errors are printed to 
 
 7. Error parsing JSON response from API  
 Fix: Handles invalid JSON responses gracefully.# Internship-Search-Automation-Tool
+# Internship-Search-Automation-Tool
