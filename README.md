@@ -33,7 +33,7 @@ I built this tool because searching for internships manually was taking up a lot
 ### 2. An Excel File for generating query
 - Each user should create their own Excel file, as their queries will be specific to their individual needs.
 - The following image shows you how the file should be structured. The file should follow the structure shown in the image below, using the same column names. You are free to use any keywords or phrases that suit your purpose when building the query.
-<img width="448" height="130" alt="image" src="https://github.com/user-attachments/assets/c5304031-f59c-432a-a92e-301185479763" />
+<img width="448" height="130" alt="image" src="https://github.com/user-attachments/assets/12edd974-236e-44d6-acef-1a5322783fa6" />
 
 - This will generate a query as follows:
 
@@ -51,27 +51,32 @@ I built this tool because searching for internships manually was taking up a lot
 ## Working Steps
 1. Run the python `run_interface.py` script in your code editor.
 2. When you run the script a GUI window opens,correctly enter the API Key (described in prerequisites) and click OK.
-  
+  <img width="208" height="94" alt="image" src="https://github.com/user-attachments/assets/8e1de78a-4ea1-493c-9a74-0dee03722d8f" />
 
    - Correctly enter the Search Engine ID and click OK (described in prerequisites).
    
+ <img width="208" height="96" alt="image" src="https://github.com/user-attachments/assets/ef8dcce7-c43c-4592-8327-38a2a26b3032" />
 
 
    - If either are missing/incorrect, the app exits.
 3. If the above details were entered correctly, you will be led to the main GUI interface.
 
+<img width="270" height="200" alt="image" src="https://github.com/user-attachments/assets/c99e4ba3-43ac-4dd2-b8ca-0b7a2e31c692" />
 
    - Select a valid Excel file (Construction shown in prerequisites).
    - Click on Display Query to generate Boolean Search Query.
-  
+  <img width="316" height="79" alt="image" src="https://github.com/user-attachments/assets/028d036c-ddc3-4690-bffe-c394568226b4" />
+
 
    - Click 'Query Shuffle' to randomize and regenerate your Boolean query.
 
+<img width="311" height="83" alt="image" src="https://github.com/user-attachments/assets/c2819d61-75ca-4e42-a95c-5489dd2f2196" />
 
    - Choose how many pages (Google result pages) to search between.
    - Click on Run a search. New results are saved if they do not already exist in the database (stored as results.db in project file).
    - Click on View Saved URLs to view that database which leads you to relevant search results.
 
+<img width="312" height="198" alt="image" src="https://github.com/user-attachments/assets/b61908b6-a792-4384-8099-b875c415a6e3" />
 
    - Click on Export results as CSV file to save valid URLs in a “results.csv” file in your project folder.
 
